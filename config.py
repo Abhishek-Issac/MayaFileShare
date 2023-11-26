@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1006159057"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kasmedia002:A.M.R.K.S.@cluster0.ycz7kf3.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "telegram files")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://hara:AMRKS@cluster0.iyjisob.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "Hara")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002037461526"))
