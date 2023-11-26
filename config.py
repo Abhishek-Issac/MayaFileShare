@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6647648650:AAHEjSJ0uLfE43qyutrWG5k82yU-DzFp_4M")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6647648650:AAFw6QwA1fJ9GXWs4dlavpZO7f3HpcWZoEI")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "1522127"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "1522127"))
 API_HASH = os.environ.get("API_HASH", "1252ffe16baf341bfd7236f92df76b0e")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002014717184"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002079130140"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1006159057"))
@@ -29,12 +29,12 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kasmedia002:A.M.R.K.S.@cluster0.ycz7kf3.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "MNFilestore_bot")
+DB_NAME = os.environ.get("DATABASE_NAME", "telegram files")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002014717184"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002037461526"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "2"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
